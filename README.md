@@ -1,6 +1,6 @@
 # musical-advisor
 
-## Docker
+## Como subir o back-end com Docker
 
 Para executar o servidor, rode
 
@@ -16,7 +16,7 @@ e a API RESTful do back-end estará disponível no caminho http://localhost:8080
   
 Obs.: Todos os testes foram realizados em ambiente Windows 10 Pro (Build 1809) com Oracle JDK 11 e Docker 18.06.1-ce-win73.
 
-## Considerações de design
+## Considerações de esign
 
 Este projeto foi baseado em princípios de DDD (Domain-Driven Design), CQRS (Command Query Responsibility Segregation) e, principalmente, Orientação a Objetos. Deste modo, trabalhei com os seguintes objetivos:
 
