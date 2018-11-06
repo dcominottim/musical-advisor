@@ -40,7 +40,7 @@ Este projeto foi desenvolvido em pouquíssimo tempo por diversas razões. Todavi
 2. Implementação do requisito HATEOAS para APIs REST;
 3. Implementação de documentação/SDK baseada em Swagger (OpenAPI 3.0);
 4. Implementação de internacionalização de mensagens de erro;
-5. Definição de um conjunto de sugestões a ser retornado quando não forem encontrados dados acerca da cidade buscada ou quando ocorrer algum erro na comunicação com os serviços remotos.
+5. Definição de um conjunto de sugestões a ser retornado (em vez de uma resposta vazia) quando não forem encontrados dados acerca da cidade buscada ou quando ocorrer algum erro na comunicação com os serviços remotos.
 
 
 ## Endpoints REST
