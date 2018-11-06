@@ -2,7 +2,7 @@
 
 ## O que é
 
-Este sistema oferece recomendações de música com base na temperatura local da cidade cujos dados são informados à API. Foram feitas integrações com o OpenWeatherMaps e Spotify para obtenção de dados de temperatura e música, respectivamente.
+Este sistema oferece recomendações de música com base na temperatura local da cidade cujos dados são informados à API. Foram feitas integrações com os serviços OpenWeatherMaps e Spotify para obtenção de dados de temperatura e música, respectivamente.
 
 ## Instruções de Execução
 
