@@ -1,6 +1,6 @@
 # musical-advisor
 
-## Como subir o back-end com Docker
+## Instruções de Execução
 
 Para executar o servidor, rode
 
@@ -16,7 +16,7 @@ e a API RESTful do back-end estará disponível no caminho http://localhost:8080
   
 Obs.: Todos os testes foram realizados em ambiente Windows 10 Pro (Build 1809) com Oracle JDK 11 e Docker 18.06.1-ce-win73.
 
-## Considerações de esign
+## Considerações de Design
 
 Este projeto foi baseado em princípios de DDD (Domain-Driven Design), CQRS (Command Query Responsibility Segregation) e, principalmente, Orientação a Objetos. Deste modo, trabalhei com os seguintes objetivos:
 
@@ -26,7 +26,7 @@ Este projeto foi baseado em princípios de DDD (Domain-Driven Design), CQRS (Com
 
 3. Dar ênfase a padrões de design que permitam ao sistema uma evolução consistente e correta, tais quais a separação de representações REST de entidades do domínio, -- representações essas modeladas como "View Objects", que a princípio podem parecer redundantes mas permitem a evolução das entidades independentemente da API externa do sistema, -- etc.
 
-## Possíveis melhorias
+## Possíveis Melhorias
 
 Este projeto foi desenvolvido em pouquíssimo tempo por diversas razões. Todavia, seu design deixa claro algumas intenções e possibilidades para o futuro, como por exemplo
 
