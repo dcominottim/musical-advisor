@@ -42,6 +42,6 @@ Este projeto foi desenvolvido em pouquíssimo tempo por diversas razões. Todavi
 ### advisor
 
 #### GET
-##### http://localhost:8080/advisor?cityName={cityName}&latitude={latitude}&longitude={longitude}
+##### http://localhost:8080/advisor?cityName={String}&latitude={Double}&longitude={Double}
 
 Retorna recomendações musicais baseadas no nome da cidade OU das coordenadas geográficas informadas (caso *cityName* não seja informado, *latitude* e *longitude* se tornam obrigatórios; e caso os 3 campos sejam informados, serão consideradas as coordenadas geográficas para fins de busca/recomendação)
